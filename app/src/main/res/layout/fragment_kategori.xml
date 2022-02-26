@@ -4,20 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HomeFragment">
+    android:padding="16dp"
+    tools:context=".FragmentKategori">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="@string/hello_home_fragment"
-        android:textSize="16sp" />
+        android:layout_marginBottom="16dp"
+        android:text="@string/this_category" />
 
     <Button
-        android:id="@+id/button_category"
+        android:id="@+id/button_detail_kategori"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="@string/to_category" />
+        android:text="@string/category_lifestyle" />
 </LinearLayout>
